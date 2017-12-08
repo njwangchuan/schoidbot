@@ -1,0 +1,23 @@
+{
+  "name": "gaari-rss",
+  "version": "1.0.0",
+  "description": "twitter bot for gaari",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "njwangchuan",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "cheerio": "^1.0.0-rc.2",
+    "feedparser": "^2.1.0",
+    "mysql": "^2.11.1",
+    "node-schedule": "^1.1.1",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "superagent": "^2.0.0",
+    "twitter": "^1.7.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "db": {
+    "connectionLimit": 10,
+    "host": "",
+    "user": "dbuser",
+    "password": "dbpassword",
+    "database": "dbname",
+    "debug": false
+  },
+  "feeds": [{
+    "url": "http://www.bilibili.tv/rss-13.xml",
+    "hashTags": ["#bilibili", "#哔哩哔哩"]
+  }, {
+    "url": "http://acg.178.com/s/rss.xml",
+    "hashTags": ["#178动漫"]
+  }, {
+    "url": "http://comic.qq.com/news/rss_news.xml",
+    "hashTags": ["#腾讯动漫"]
+  }],
+  "twitter": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token_key": "",
+    "access_token_secret": ""
+  },
+}
