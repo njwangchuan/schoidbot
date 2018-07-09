@@ -8,12 +8,15 @@
     "debug": false
   },
   "feeds": [{
+    "enable" : true,
     "url": "http://www.bilibili.tv/rss-13.xml",
     "hashTags": ["#bilibili", "#哔哩哔哩"]
   }, {
+    "enable" : true,
     "url": "http://acg.178.com/s/rss.xml",
     "hashTags": ["#178动漫"]
   }, {
+    "enable" : true,
     "url": "http://comic.qq.com/news/rss_news.xml",
     "hashTags": ["#腾讯动漫"]
   }],
