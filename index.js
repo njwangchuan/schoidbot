@@ -148,7 +148,7 @@ var updateTwitterStatus = function(callback) {
 
 var updateRssFeedsJob = (callback) => {
   console.log('update rss feeds job begin');
-  async.map(feeds, parseFeed, function(err, results) {
+  async.map(feeds.filter(feed => feed.enable), parseFeed, function(err, results) {
     if (err) {
       console.log(err);
     } else {
