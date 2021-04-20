@@ -1,7 +1,7 @@
 {
-  "name": "gaari-rss",
+  "name": "schoidbot",
   "version": "1.0.0",
-  "description": "twitter bot for gaari",
+  "description": "simple twitter bot use rss feed",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "name": "gaari-rss",
+    "name": "schoidbot",
     "script": "index.js",
     "node_args": "--harmony",
     "watch": [

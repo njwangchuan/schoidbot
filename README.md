@@ -1,13 +1,13 @@
-# gaari-rss
+# schoidbot
 
-`gaari-rss` is a twitter bot   with rss feeds. [幻月があり][e79fb6a1]
+`schoidbot` is a twitter bot   with rss feeds. [幻月があり][e79fb6a1]
 
-[e79fb6a1]: https://twitter.com/GaariRSS "幻月があり"
+[e79fb6a1]: https://twitter.com/schoidbot "幻月があり"
 
 ## System requre
 
 ```
-Node.js v6
+Node.js v10
 Twitter developer account
 ```
 
