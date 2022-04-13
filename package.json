@@ -9,7 +9,7 @@
   "author": "njwangchuan",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.0.1",
+    "async": "^3.2.2",
     "body-parser": "^1.15.2",
     "cheerio": "^1.0.0-rc.2",
     "feedparser": "^2.1.0",
