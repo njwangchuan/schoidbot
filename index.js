@@ -66,7 +66,7 @@ var getItemPic = (link, callback) => {
       callback(err, null);
     } else {
       var $ = cheerio.load(body);
-      var imgs = $('img').toArray();
+      var imgs = $('p > img').toArray();
       if (imgs.length) {
         callback(err, imgs[0].attribs.src);
       } else {
